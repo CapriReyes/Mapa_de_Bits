@@ -22,3 +22,36 @@ El método imprimir se encarga de imprimir la nueva imagen en un panel de la cla
 
 El método guardar es el encargado de guardar la imagen resultante en el ordenador, cambiando el numero de la imagen dependiendo de las veces que sea llamado
 ![image](https://user-images.githubusercontent.com/71307223/132053878-a32f63b8-3d73-4e49-96b4-0c9a08819469.png)
+
+# Clase Mapa_Panel
+
+Esta clase es encargada de manejar la imagen original                                         
+![image](https://user-images.githubusercontent.com/71307223/132054358-62f6bff6-ebf3-430c-bed6-4f6f10d73666.png)
+
+El Método coloca_imagen es la encargada de inicializar la imagen para uso de esta clase, ademas de inicializar un arreglo para guardar los datos de los colores 
+![image](https://user-images.githubusercontent.com/71307223/132054436-6fdd1b59-2dd2-462f-b246-2bbacc493300.png)
+
+En el método guardarColores se hace uso de dos bucles for para recorrer cada pixel de la imagen para conseguir el color que la compone y posteriormente conseguir sus valores en el modelo de colores RGB los cuales son RED, GREEN, BLUE
+![image](https://user-images.githubusercontent.com/71307223/132054678-72e4dc25-f85c-4cbc-aadb-bf8e81f609ab.png)
+
+Para dibujar la imagen hacemos uso del método paintComponent donde se imprime cada uno de los pixeles en forma de rectangulos que al final hace la imagen original
+![image](https://user-images.githubusercontent.com/71307223/132055533-713f6763-3368-430f-a0c7-e82dacb87025.png)
+
+# Clase Panel_Nuevo
+
+La clase Panel_Nuevo es la encargada de manejar cada una de las imagenes que se generen asi como de cambiar sus colores, a esta clase en el constructor se le pasa como parametros la imagen y el arreglos de colores
+![image](https://user-images.githubusercontent.com/71307223/132055881-f810907c-d568-43a2-889b-e262a92dfbb5.png)
+
+El método cambioColor como su nombre lo indica en la encargada de realizar el cambio de color de cada pixel de la siguiente manera
+1.-conseguir una color auxiliar de manera random para usar cuando el pixel es gris 
+2.-Dentro de un for anidado se verifica cuatro variantes 
+2.1.-Si es negro se convierte a blanco
+2.2.-Si es blanco pasa a negro
+2.3.-Si es gris toma el color auxiliar
+2.4.-Si no se cumple ninguna de las anteriores se intercabian los valores RGB a GBR 
+2.-Se le coloca el nuevo color al pixel
+![image](https://user-images.githubusercontent.com/71307223/132056079-4c99542b-d8ba-4c65-bf76-92bb9b1d9bbc.png)
+![image](https://user-images.githubusercontent.com/71307223/132056138-d772dfc2-0b7d-48b4-ba48-6b5acc3766e8.png)
+
+Para dibujar la imagen hacemos uso del método paintComponent donde se imprime cada uno de los pixeles en forma de rectangulos que al final hace la imagen resultante
+![image](https://user-images.githubusercontent.com/71307223/132056637-0f76a7d7-5dbe-46f0-a6be-be5ce8e5478e.png)
