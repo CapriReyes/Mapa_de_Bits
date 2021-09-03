@@ -8,7 +8,7 @@ Primero creamos una pantalla con la clase JFrame donde se van a presentar las im
 
 # Clase Panel_Imagen
 
-Posteriormente se creo una clase llamada Panel_Imagen misma que hereda metodos y atributos de la clase JPanel, esta clase es la encargada de manejar los componentes como los paneles para cada imagen y los botones ademas de declarar variables que posteriormente van a ser utilizadas
+Posteriormente se creo una clase llamada Panel_Imagen misma que hereda metodos y atributos de la clase JPanel, esta clase es la encargada de manejar los componentes como los paneles para cada imagen y los botones ademas de declarar variables que posteriormente van a ser utilizadas                                                                          
 ![image](https://user-images.githubusercontent.com/71307223/132052711-c4f76bea-8691-45b8-8a87-9e53a3c9f025.png)
 
 El método recursos es el encargado de una unica tarea y es cargar la imagen original, la cual vamos a cambiar sus colores
