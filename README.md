@@ -28,13 +28,13 @@ El método guardar es el encargado de guardar la imagen resultante en el ordenad
 Esta clase es encargada de manejar la imagen original                                         
 ![image](https://user-images.githubusercontent.com/71307223/132054358-62f6bff6-ebf3-430c-bed6-4f6f10d73666.png)
 
-El Método coloca_imagen es la encargada de inicializar la imagen para uso de esta clase, ademas de inicializar un arreglo para guardar los datos de los colores 
+El Método coloca_imagen es la encargada de inicializar la imagen para uso de esta clase, ademas de inicializar un arreglo para guardar los datos de los colores                      
 ![image](https://user-images.githubusercontent.com/71307223/132054436-6fdd1b59-2dd2-462f-b246-2bbacc493300.png)
 
 En el método guardarColores se hace uso de dos bucles for para recorrer cada pixel de la imagen para conseguir el color que la compone y posteriormente conseguir sus valores en el modelo de colores RGB los cuales son RED, GREEN, BLUE
 ![image](https://user-images.githubusercontent.com/71307223/132054678-72e4dc25-f85c-4cbc-aadb-bf8e81f609ab.png)
 
-Para dibujar la imagen hacemos uso del método paintComponent donde se imprime cada uno de los pixeles en forma de rectangulos que al final hace la imagen original
+Para dibujar la imagen hacemos uso del método paintComponent donde se imprime cada uno de los pixeles en forma de rectangulos que al final hace la imagen original                  
 ![image](https://user-images.githubusercontent.com/71307223/132055533-713f6763-3368-430f-a0c7-e82dacb87025.png)
 
 # Clase Panel_Nuevo
