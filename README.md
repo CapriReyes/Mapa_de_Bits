@@ -55,3 +55,4 @@ El método cambioColor como su nombre lo indica en la encargada de realizar el c
 
 Para dibujar la imagen hacemos uso del método paintComponent donde se imprime cada uno de los pixeles en forma de rectangulos que al final hace la imagen resultante
 ![image](https://user-images.githubusercontent.com/71307223/132056637-0f76a7d7-5dbe-46f0-a6be-be5ce8e5478e.png)
+
