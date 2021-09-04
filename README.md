@@ -67,7 +67,7 @@ Para dibujar la imagen hacemos uso del método paintComponent donde se imprime c
 
 ![image](https://user-images.githubusercontent.com/71307223/132056637-0f76a7d7-5dbe-46f0-a6be-be5ce8e5478e.png)
 
-#Resultados
+# Resultados
 
 Ventana al iniciar el programa
 
