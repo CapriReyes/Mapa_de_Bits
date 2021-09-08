@@ -1,5 +1,6 @@
 # Mapa_de_Bits
-En el siguiente programa se encarga de cargar una imagen BitMap y posteriormente hace un cambio de color a cada uno de los pixeles
+
+![image](https://user-images.githubusercontent.com/71307223/132542783-b493815a-19da-4571-a34f-982eee3098e9.png)
 
 # Clase Imagen_Pantalla
 
